@@ -1,0 +1,15 @@
+.container{
+                border: 2px solid gray;
+                display: flex;
+                justify-content:space-evenly ;
+                height: 250px;
+                align-items: center;
+                flex-direction: row-reverse;
+                flex-wrap: wrap;
+}
+
+.box{
+                border: 1px solid red;
+                width: 60px;
+                height: 60px;
+}
