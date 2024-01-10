@@ -4,12 +4,59 @@
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>Form</title>
-                <link rel="stylesheet" href="style/flex.css">
+                <style>
+                                nav {
+                                                display: flex;
+                                                justify-content: space-between;
+                                                font-size: 24px;
+                                                
+                                }
+                                nav a {
+                                                text-decoration: none;
+                                                color: black;
+                                                margin-right: 20px;
+
+                                }
+                                .login-form{
+                                                display: flex;
+                                                flex-direction: column;
+                                                width: 50%;
+                                               
+                                }
+                                .login-form input {
+                                                margin-top: 20px;
+                                }
+                                .login-form-container{
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                height: 100vh;
+
+                                }
+
+                                
+                </style>
+               
 </head>
 <body>
                 <nav>
-                                
+                                <div>
+                                                <a href="">Home</a>
+                                                <a href="">About</a>
+                                                <a href="">Contact</a>
+                                                <a href="">Portfolio</a>
+                                </div>
+                                <a href="">Login</a>
+
                 </nav>
+                <section class="login-form-container">
+                                <form class="login-form" >
+                                                <h2>Please Login</h2>
+                                                <input type="email" placeholder="Your Email" required>
+                                                <input type="password" placeholder="Your Password" required>
+                                                <input type="submit" value="Login">
+                                </form>
+                </section>
                 
 </body>
 </html>
