@@ -1,0 +1,6 @@
+.header ,.nav ,.main,.sidebar,.advertise,.footer{
+                background-color: beige;
+                border: 2px solid gray;
+                padding: 5px;
+                border-radius: 10px;
+}
