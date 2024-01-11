@@ -1,11 +1,12 @@
 .container{
                 border: 2px solid gray;
                 display: flex;
-                justify-content:space-evenly ;
+                justify-content:center;
                 height: 250px;
                 align-items: center;
                 flex-direction: row-reverse;
                 flex-wrap: wrap;
+                
 }
 
 .box{
