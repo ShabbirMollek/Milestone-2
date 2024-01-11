@@ -1,0 +1,42 @@
+img{
+                width: 100%;
+                height: 100%;
+}
+.row{
+                height: 400px;
+                display: flex;
+                gap: 20px;
+                margin-bottom: 20px;
+}
+.row > div {
+                flex: 1;
+}
+.vertical-collage img {
+                height: 50%;
+
+}
+.square-collage{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 5px;
+}
+
+
+@media  screen and (max-width:576px ) {
+                .row{
+                                flex-direction: column;
+                                height: auto;
+                }
+                .square-collage{
+                                flex-direction: column;
+                }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+                .row{
+                                flex-direction: column;
+                                height: auto;
+                }
+                
+}
