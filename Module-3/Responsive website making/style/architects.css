@@ -97,6 +97,45 @@ main{
                 padding-right: 70px;
                 padding-left: 70px;
 }
+.facts h3 {
+                color:  #131313;
+                font-size: 2.6rem;
+                font-weight: 700;
+}
+.facts p{
+                color:  #727272;
+                font-size: 1.25rem;
+                font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -143,16 +182,25 @@ main{
                 header{
                                 padding: 20px;
                 }
-                nav{
+                nav , .team-container{
                                 flex-direction: column;
                 }
+                .team-emg-container{
+                                grid-template-columns: 1fr;
+                }
+                .team-contents{
+                                 padding-right:0px;
+                                padding-left: 0px; 
+                               
+                }
+
 }
 
 @media screen and (min-width:577px) and (max-width:990px) {
                 header{
                                 padding: 10px;
                 }
-                nav{
+                nav ,.team-container{
                                 flex-direction: column;
                 }
 }
